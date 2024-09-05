@@ -1,9 +1,7 @@
 <template>
   <div>
-    <h1>Hello</h1>
-    <!-- <CardComponents :props="cardData"/> -->
-     <ToDo />
-
+    <CardComponents :props="cardData"/>
+    <ToDo />
   </div>
 </template>
 
